@@ -1,0 +1,91 @@
+build	Build APK	﻿2026-11-03T16:47:09.7928765Z ##[group]Run gradle assembleDebug
+build	Build APK	2026-11-03T16:47:09.7929149Z ^[[36;1mgradle assembleDebug^[[0m
+build	Build APK	2026-11-03T16:47:09.7952355Z shell: /usr/bin/bash -e {0}
+build	Build APK	2026-11-03T16:47:09.7952757Z env:
+build	Build APK	2026-11-03T16:47:09.7953060Z   ANDROID_HOME: /usr/local/lib/android/sdk
+build	Build APK	2026-11-03T16:47:09.7953524Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+build	Build APK	2026-11-03T16:47:09.7954083Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+build	Build APK	2026-11-03T16:47:09.7954650Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.21-9/x64
+build	Build APK	2026-11-03T16:47:09.7955106Z   GRADLE_ACTION_ID: gradle/actions/setup-gradle
+build	Build APK	2026-11-03T16:47:09.7955446Z   GRADLE_USER_HOME: /home/runner/.gradle
+build	Build APK	2026-11-03T16:47:09.7955908Z   GRADLE_BUILD_ACTION_SETUP_COMPLETED: true
+build	Build APK	2026-11-03T16:47:09.7956344Z   GRADLE_BUILD_ACTION_CACHE_RESTORED: true
+build	Build APK	2026-11-03T16:47:09.7957235Z   DEVELOCITY_INJECTION_INIT_SCRIPT_NAME: gradle-actions.inject-develocity.init.gradle
+build	Build APK	2026-11-03T16:47:09.7958002Z   DEVELOCITY_INJECTION_CUSTOM_VALUE: gradle-actions
+build	Build APK	2026-11-03T16:47:09.7958502Z   GITHUB_DEPENDENCY_GRAPH_ENABLED: false
+build	Build APK	2026-11-03T16:47:09.7958807Z ##[endgroup]
+build	Build APK	2026-11-03T16:47:14.9795168Z Starting a Gradle Daemon (subsequent builds will be faster)
+build	Build APK	2026-11-03T16:47:25.9821357Z 
+build	Build APK	2026-11-03T16:47:25.9835005Z > Configure project :app
+build	Build APK	2026-11-03T16:47:25.9837509Z Declaring dependencies using multi-string notation has been deprecated. This will fail with an error in Gradle 10. Please use single-string notation ("com.android.tools.lint:lint-gradle:31.8.2") or DependencyFactory instead. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_9.html#dependency_multi_string_notation
+build	Build APK	2026-11-03T16:47:25.9843545Z Declaring dependencies using multi-string notation has been deprecated. This will fail with an error in Gradle 10. Please use single-string notation ("com.android.tools.build:aapt2:8.8.2-12006047:linux") or DependencyFactory instead. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_9.html#dependency_multi_string_notation
+build	Build APK	2026-11-03T16:47:25.9845742Z The Configuration.setVisible(boolean) method has been deprecated. This is scheduled to be removed in Gradle 11. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_9.html#deprecate-visible-property
+build	Build APK	2026-11-03T16:47:25.9850769Z Declaring 'crunchPngs' as a property using an 'is-' method with a Boolean type on com.android.build.gradle.internal.dsl.BuildType$AgpDecorated has been deprecated. Starting with Gradle 10, this property will no longer be treated like a property. The combination of method name and return type is not consistent with Java Bean property rules. Add a method named 'getCrunchPngs' with the same behavior and mark the old one with @Deprecated, or change the type of 'com.android.build.gradle.internal.dsl.BuildType$AgpDecorated.isCrunchPngs' (and the setter) to 'boolean'. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_8.html#groovy_boolean_properties
+build	Build APK	2026-11-03T16:47:25.9859856Z Declaring 'useProguard' as a property using an 'is-' method with a Boolean type on com.android.build.gradle.internal.dsl.BuildType has been deprecated. Starting with Gradle 10, this property will no longer be treated like a property. The combination of method name and return type is not consistent with Java Bean property rules. Add a method named 'getUseProguard' with the same behavior and mark the old one with @Deprecated, or change the type of 'com.android.build.gradle.internal.dsl.BuildType.isUseProguard' (and the setter) to 'boolean'. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_8.html#groovy_boolean_properties
+build	Build APK	2026-11-03T16:47:25.9865252Z Using the enum type KotlinNativeBundleArtifactsTypes as an attribute value type has been deprecated. This will fail with an error in Gradle 10. This enum does not implement Named. All Enums used as Attribute values should implement Named. This enum type is used by the Kotlin Gradle Plugin 2.0.x line. Upgrade to KGP 2.1.0 or later, in which the plugin no longer uses a plain enum for this attribute. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_9.html#kgp_native_bundle_attribute_enum
+build	Build APK	2026-11-03T16:47:25.9871367Z Declaring 'wearAppUnbundled' as a property using an 'is-' method with a Boolean type on com.android.build.api.variant.impl.ApplicationVariantImpl has been deprecated. Starting with Gradle 10, this property will no longer be treated like a property. The combination of method name and return type is not consistent with Java Bean property rules. Add a method named 'getWearAppUnbundled' with the same behavior and mark the old one with @Deprecated, or change the type of 'com.android.build.api.variant.impl.ApplicationVariantImpl.isWearAppUnbundled' (and the setter) to 'boolean'. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_8.html#groovy_boolean_properties
+build	Build APK	2026-11-03T16:47:25.9876640Z Using a Project object as a dependency notation has been deprecated. This will fail with an error in Gradle 10. Please use the project(String) method on DependencyHandler or the createProjectDependency(String) method on DependencyFactory instead. Consult the upgrading guide for further information: https://docs.gradle.org/9.8.2/userguide/upgrading_version_9.html#dependency_project_notation
+build	Build APK	2026-11-03T16:47:26.9801408Z 
+build	Build APK	2026-11-03T16:47:26.9814116Z > Task :app:preBuild UP-TO-DATE
+build	Build APK	2026-11-03T16:47:27.0791967Z > Task :app:preDebugBuild UP-TO-DATE
+build	Build APK	2026-11-03T16:47:27.0814858Z > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+build	Build APK	2026-11-03T16:47:27.0837535Z > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+build	Build APK	2026-11-03T16:47:27.0863124Z > Task :app:generateDebugBuildConfig
+build	Build APK	2026-11-03T16:47:28.3791184Z > Task :app:generateDebugResValues
+build	Build APK	2026-11-03T16:47:28.3823504Z > Task :app:checkDebugAarMetadata
+build	Build APK	2026-11-03T16:47:28.3842221Z > Task :app:mapDebugSourceSetPaths
+build	Build APK	2026-11-03T16:47:28.3858030Z > Task :app:generateDebugResources
+build	Build APK	2026-11-03T16:47:29.1852758Z > Task :app:packageDebugResources
+build	Build APK	2026-11-03T16:47:29.6792620Z > Task :app:mergeDebugResources
+build	Build APK	2026-11-03T16:47:31.1842631Z > Task :app:createDebugCompatibleScreenManifests
+build	Build APK	2026-11-03T16:47:31.1864758Z > Task :app:extractDeepLinksDebug
+build	Build APK	2026-11-03T16:47:31.2799116Z > Task :app:parseDebugLocalResources
+build	Build APK	2026-11-03T16:47:31.3813547Z > Task :app:processDebugMainManifest
+build	Build APK	2026-11-03T16:47:31.4792314Z > Task :app:processDebugManifest
+build	Build APK	2026-11-03T16:47:31.4798291Z > Task :app:processDebugManifestForPackage
+build	Build APK	2026-11-03T16:47:31.4799239Z > Task :app:javaPreCompileDebug
+build	Build APK	2026-11-03T16:47:31.6811552Z > Task :app:mergeDebugShaders
+build	Build APK	2026-11-03T16:47:31.6842832Z > Task :app:compileDebugShaders NO-SOURCE
+build	Build APK	2026-11-03T16:47:31.6872027Z > Task :app:generateDebugAssets UP-TO-DATE
+build	Build APK	2026-11-03T16:47:31.7823648Z > Task :app:mergeDebugAssets
+build	Build APK	2026-11-03T16:47:31.7851955Z > Task :app:compressDebugAssets
+build	Build APK	2026-11-03T16:47:31.8835076Z > Task :app:mergeDebugJniLibFolders
+build	Build APK	2026-11-03T16:47:31.9825449Z > Task :app:checkDebugDuplicateClasses
+build	Build APK	2026-11-03T16:47:32.2815876Z > Task :app:mergeLibDexDebug
+build	Build APK	2026-11-03T16:47:32.2872312Z > Task :app:processDebugResources
+build	Build APK	2026-11-03T16:47:32.5791985Z > Task :app:mergeDebugNativeLibs
+build	Build APK	2026-11-03T16:47:33.2797477Z > Task :app:validateSigningDebug
+build	Build APK	2026-11-03T16:47:34.0794067Z > Task :app:writeDebugAppMetadata
+build	Build APK	2026-11-03T16:47:34.1820677Z > Task :app:writeDebugSigningConfigVersions
+build	Build APK	2026-11-03T16:47:34.1832958Z > Task :app:desugarDebugFileDependencies
+build	Build APK	2026-11-03T16:47:34.4808268Z > Task :app:stripDebugDebugSymbols
+build	Build APK	2026-11-03T16:47:45.5802354Z > Task :app:mergeExtDexDebug
+build	Build APK	2026-11-03T16:48:01.4791509Z > Task :app:compileDebugKotlin
+build	Build APK	2026-11-03T16:48:09.4822595Z > Task :app:compileDebugJavaWithJavac
+build	Build APK	2026-11-03T16:48:13.2791882Z > Task :app:dexBuilderDebug
+build	Build APK	2026-11-03T16:48:13.3791833Z > Task :app:mergeDebugGlobalSynthetics
+build	Build APK	2026-11-03T16:48:13.4792547Z > Task :app:processDebugJavaRes
+build	Build APK	2026-11-03T16:48:14.9792932Z > Task :app:mergeProjectDexDebug
+build	Build APK	2026-11-03T16:48:15.5832549Z > Task :app:mergeDebugJavaResource
+build	Build APK	2026-11-03T16:48:17.9794049Z > Task :app:packageDebug
+build	Build APK	2026-11-03T16:48:17.9797367Z > Task :app:createDebugApkListingFileRedirect
+build	Build APK	2026-11-03T16:48:17.9798048Z > Task :app:assembleDebug
+build	Build APK	2026-11-03T16:48:18.0791227Z gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_3-1793724441217.json
+build	Build APK	2026-11-03T16:48:18.0801491Z 
+build	Build APK	2026-11-03T16:48:18.0802594Z [Incubating] Problems report is available at: file:///home/runner/work/FoxyVPN/FoxyVPN/build/reports/problems/problems-report.html
+build	Build APK	2026-11-03T16:48:18.0803689Z 37 actionable tasks: 37 executed
+build	Build APK	2026-11-03T16:48:18.0804606Z Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.2/userguide/configuration_cache_enabling.html
+build	Build APK	2026-11-03T16:48:18.0811611Z 
+build	Build APK	2026-11-03T16:48:18.0824031Z FAILURE: Build failed with an exception.
+build	Build APK	2026-11-03T16:48:18.0826384Z 
+build	Build APK	2026-11-03T16:48:18.0830250Z * What went wrong:
+build	Build APK	2026-11-03T16:48:18.0836063Z Deprecated Gradle features were used in this build, making it incompatible with Gradle 10
+build	Build APK	2026-11-03T16:48:18.0838376Z 
+build	Build APK	2026-11-03T16:48:18.0839228Z * Try:
+build	Build APK	2026-11-03T16:48:18.0847725Z > Run with --stacktrace option to get the stack trace.
+build	Build APK	2026-11-03T16:48:18.0867578Z > Run with --info or --debug option to get more log output.
+build	Build APK	2026-11-03T16:48:18.0871957Z > Run with --scan to get full insights from a Build Scan (powered by Develocity).
+build	Build APK	2026-11-03T16:48:18.0889238Z > Get more help at https://help.gradle.org.
+build	Build APK	2026-11-03T16:48:18.0893472Z 
+build	Build APK	2026-11-03T16:48:18.0914745Z BUILD FAILED in 1m 8s
+build	Build APK	2026-11-03T16:48:18.5003477Z ##[error]Process completed with exit code 1.
